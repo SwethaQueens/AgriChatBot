@@ -1,0 +1,14 @@
+streamlit
+langchain
+sentence-transformers
+uvicorn
+ctransformers
+python-box
+langchain_community
+google_generativeai
+textwrap3
+pathlib
+ipython
+streamlit_option_menu
+mysql
+mysql_connector
