@@ -10,5 +10,3 @@ textwrap3
 pathlib
 ipython
 streamlit_option_menu
-mysql
-mysql_connector
