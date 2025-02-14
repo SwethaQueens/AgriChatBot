@@ -77,10 +77,8 @@ st.session_state.current_page = menu_selection
 
 # Handle navigation
 if st.session_state.current_page == "Home":
-    if st.session_state.is_logged_in:
-        main_page()
-    else:
-        st.warning("You must log in to access this page.")
+    main_page()
+    
 elif st.session_state.current_page == "Login":
     login_page()
 elif st.session_state.current_page == "Signup":
