@@ -1,7 +1,5 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
-from login import login_page
-from signup import signup_page
 from index import main_page
 
 # Add custom CSS with a clear focus on aesthetics
@@ -80,6 +78,6 @@ if st.session_state.current_page == "Home":
     main_page()
     
 elif st.session_state.current_page == "Login":
-    login_page()
+    pass
 elif st.session_state.current_page == "Signup":
-    signup_page()
+    pass
